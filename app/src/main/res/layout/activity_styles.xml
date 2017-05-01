@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="hindsr.uw.tacoma.edu.lookandfeel.StylesActivity">
+    tools:context="hindsr.uw.tacoma.edu.lookandfeel.StylesActivity"
+    android:background="@color/uwGainsboro">
 
     <EditText
         android:id="@+id/emailAddress"
@@ -31,13 +32,13 @@
 
         <Button
             android:id="@+id/Clear"
-            style="?android:attr/borderlessButtonStyle"
+            style="@style/robs_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="65dp"
             android:layout_marginStart="66dp"
             android:layout_marginTop="8dp"
-            android:background="@color/uwDarkSlateBlue"
+            android:background="@drawable/select_robs_button"
             android:text="@string/clear"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"

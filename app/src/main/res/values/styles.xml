@@ -39,5 +39,9 @@
         <item name="android:textColor">@color/uw_button_colors</item>
     </style>
 
+    <style name="robs_button">
+        <item name="android:background">@drawable/select_robs_button</item>
+        <item name="android:textColor">@color/robs_button_colors</item>
+    </style>
 
 </resources>
