@@ -4,4 +4,8 @@
     <string name="enter_email_address">Enter email address</string>
     <string name="clear">Clear</string>
     <string name="submit">Submit</string>
+    <string name="spin_but" >SPIN</string>
+    <string name="move_but" >MOVE</string>
+    <string name="fade_but" >FADE</string>
+    <string name="animating">UWT</string>
 </resources>
