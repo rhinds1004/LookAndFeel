@@ -39,4 +39,11 @@ public class AnimationsActivity extends AppCompatActivity {
         set.setTarget(v);
         set.start();
     }
+
+    public void animateRobsAnim(View view){
+        View v = findViewById(R.id.animate_me);
+        AnimatorSet set = (AnimatorSet)AnimatorInflater.loadAnimator(this, R.animator.robsanim);
+        set.setTarget(v);
+        set.start();
+    }
 }

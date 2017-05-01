@@ -67,6 +67,7 @@
         android:background="@color/uwDarkSlateBlue"
         android:textColor="@color/uwDarkKhaki"
         android:layout_margin="20dp"
+        android:onClick="animateRobsAnim"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

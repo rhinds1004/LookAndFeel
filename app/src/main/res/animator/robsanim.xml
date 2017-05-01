@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:repeatCount="0"
+        android:interpolator="@android:anim/linear_interpolator">
+    <propertyValuesHolder
+        android:valueTo="-400"
+        android:propertyName="x" />
+
+</objectAnimator>
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:repeatCount="0"
+        android:interpolator="@android:anim/linear_interpolator">
+        <propertyValuesHolder
+            android:propertyName="backgroundColor"
+            android:valueTo="@color/uwBlack" />
+        <propertyValuesHolder
+            android:propertyName="textColor"
+            android:valueTo="@color/uwDarkSlateBlue" />
+        <propertyValuesHolder
+            android:valueTo="400"
+            android:propertyName="x" />
+    </objectAnimator>
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:repeatCount="0"
+        android:interpolator="@android:anim/linear_interpolator">
+        <propertyValuesHolder
+            android:valueTo="1400"
+            android:propertyName="x" />
+    </objectAnimator>
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:repeatCount="0"
+        android:interpolator="@android:anim/linear_interpolator">
+        <propertyValuesHolder
+            android:propertyName="backgroundColor"
+            android:valueTo="@color/uwDarkSlateBlue" />
+        <propertyValuesHolder
+            android:propertyName="textColor"
+            android:valueTo="@color/uwDarkKhaki" />
+        <propertyValuesHolder
+            android:valueTo="400"
+            android:propertyName="x" />
+    </objectAnimator>
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:repeatCount="1"
+        android:repeatMode="reverse">
+
+        <propertyValuesHolder android:propertyName="y" android:valueTo="250"/>
+    </objectAnimator>
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:valueType="floatType">
+
+        <propertyValuesHolder android:propertyName="y" android:valueTo="1400"/>
+    </objectAnimator>
+
+
+</set>
