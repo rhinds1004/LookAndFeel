@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LookAndFeel</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="clear">Clear</string>
+    <string name="submit">Submit</string>
 </resources>

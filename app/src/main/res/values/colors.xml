@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="uwDarkSlateBlue">#4B2E83</color>
+    <color name="uwDarkKhaki">#B7A57A</color>
+    <color name="uwWhite">#FFFFFF</color>
+    <color name="uwDarkSlateGray">#444444</color>
+    <color name="uwGainsboro">#D9D9D9</color>
+    <color name="uwBlack">#000000</color>
+    <color name="uwSlateGray">#705b97</color>
+
 </resources>

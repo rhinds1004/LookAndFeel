@@ -3,9 +3,41 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/uwDarkSlateBlue</item>
+        <item name="colorPrimaryDark">@color/uwSlateGray</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:background">@color/uwDarkSlateBlue</item>-->
+        <item name="android:textColor">@color/uwDarkKhaki</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:editTextColor">@color/uwSlateGray</item>
+        <item name="android:textColorHint">@color/uwDarkSlateGray</item>
+
+
+
     </style>
+    <!-- Styles for all EditText -->
+    <style name="EditTextStyle" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#F0F</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="PwdEditTextStyle" parent="EditTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/uwDarkSlateBlue</item>
+        <item name="android:editTextColor">@color/uwSlateGray</item>
+        <item name="android:textColorHint">@color/uwDarkSlateGray</item>
+        <item name="android:inputType">textWebPassword</item>
+    </style>
+
+    <!-- Styles for UW Buttons -->
+    <style name="uw_button">
+        <item name="android:background">@drawable/uw_button</item>
+        <item name="android:textColor">@color/uw_button_colors</item>
+    </style>
+
 
 </resources>
